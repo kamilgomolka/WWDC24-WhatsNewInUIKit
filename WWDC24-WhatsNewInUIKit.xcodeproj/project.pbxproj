@@ -11,22 +11,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8EC3CD4930052EAC00D09B94 /* Exceptions for "WWDC24-WhatsNewInUIKit" folder in "WWDC24-WhatsNewInUIKit" target */ = {
+		8EC3CD623005308000D09B94 /* Exceptions for "Supporting files" folder in "WWDC24-WhatsNewInUIKit" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"/Localized: LaunchScreen.storyboard",
+				"/Localized: Main.storyboard",
+				Assets.xcassets,
 			);
 			target = 8EC3CD3630052EAB00D09B94 /* WWDC24-WhatsNewInUIKit */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8EC3CD3930052EAB00D09B94 /* WWDC24-WhatsNewInUIKit */ = {
+		8EC3CD543005307F00D09B94 /* Source */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8EC3CD5B3005307F00D09B94 /* Supporting files */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				8EC3CD4930052EAC00D09B94 /* Exceptions for "WWDC24-WhatsNewInUIKit" folder in "WWDC24-WhatsNewInUIKit" target */,
+				8EC3CD623005308000D09B94 /* Exceptions for "Supporting files" folder in "WWDC24-WhatsNewInUIKit" target */,
 			);
-			path = "WWDC24-WhatsNewInUIKit";
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +52,8 @@
 		8EC3CD2E30052EAB00D09B94 = {
 			isa = PBXGroup;
 			children = (
-				8EC3CD3930052EAB00D09B94 /* WWDC24-WhatsNewInUIKit */,
+				8EC3CD543005307F00D09B94 /* Source */,
+				8EC3CD5B3005307F00D09B94 /* Supporting files */,
 				8EC3CD3830052EAB00D09B94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +82,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8EC3CD3930052EAB00D09B94 /* WWDC24-WhatsNewInUIKit */,
+				8EC3CD543005307F00D09B94 /* Source */,
 			);
 			name = "WWDC24-WhatsNewInUIKit";
 			packageProductDependencies = (
@@ -147,7 +155,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9G3V3Z24HF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "WWDC24-WhatsNewInUIKit/Info.plist";
+				INFOPLIST_FILE = "Supporting files/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "What's new in UIKit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -181,7 +189,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9G3V3Z24HF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "WWDC24-WhatsNewInUIKit/Info.plist";
+				INFOPLIST_FILE = "Supporting files/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "What's new in UIKit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
