@@ -26,8 +26,10 @@ private final class SizeClassAwareView: UIView {
             addSubview(badge)
         }
         compactBadge.text = "Compact layout: stacked"
+        compactBadge.numberOfLines = 0
         compactBadge.backgroundColor = .systemOrange.withAlphaComponent(0.2)
         regularBadge.text = "Regular layout: side by side"
+        regularBadge.numberOfLines = 0
         regularBadge.backgroundColor = .systemBlue.withAlphaComponent(0.2)
     }
 
