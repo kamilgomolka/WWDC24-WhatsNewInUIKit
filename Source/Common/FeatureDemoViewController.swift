@@ -47,6 +47,14 @@ class FeatureDemoViewController: UIViewController {
         self.explanation = explanation
         super.init(nibName: nil, bundle: nil)
         self.title = title
+
+        // `prefersLargeTitles` is set on the navigation bar itself (see
+        // `MainViewController`), so it applies to the whole stack. These
+        // pushed detail screens have no scroll view reaching the top edge
+        // to drive the large-title collapse, so without this the title
+        // would stay large indefinitely instead of behaving like a normal
+        // detail screen.
+        navigationItem.largeTitleDisplayMode = .never
     }
 
     required init?(coder: NSCoder) {
