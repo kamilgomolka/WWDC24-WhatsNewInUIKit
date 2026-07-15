@@ -26,11 +26,11 @@ Inspired by the session [*What's new in UIKit*](https://developer.apple.com/vide
 
 <img width="600" alt="Simulator Screenshot - iPhone 17 (26 5) - 2026-07-15 at 16 16 27" src="https://github.com/user-attachments/assets/1589a920-6fe1-4671-892a-70a27266c92e" />
 
-https://github.com/user-attachments/assets/2607d5ef-bf5c-4f64-a48f-16af4bf0024b
+https://github.com/user-attachments/assets/90f79914-a83e-4f8f-8c7e-36ee95901701
 
 https://github.com/user-attachments/assets/a7d5be58-d7d8-4eba-8b89-33db27550f4b
 
-(Sorry, that's all I uploaded, no videos for other menu items; Please download & run the project if you're interested)
+(Sorry, that's all I uploaded - no recordings for other menu items; If you'd like to explore more, download & run the project)
 
 ## Requirements
 
