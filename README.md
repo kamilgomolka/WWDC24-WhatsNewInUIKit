@@ -24,13 +24,16 @@ Inspired by the session [*What's new in UIKit*](https://developer.apple.com/vide
 
 ## Screenshots / Recordings
 
-<img width="600" alt="Simulator Screenshot - iPhone 17 (26 5) - 2026-07-15 at 16 16 27" src="https://github.com/user-attachments/assets/1589a920-6fe1-4671-892a-70a27266c92e" />
+Main Screen:
+<img width="351" height="735" alt="Screenshot 2026-07-15 at 17 52 03" src="https://github.com/user-attachments/assets/9c598d83-f782-40d9-b251-9055507f81a3" />
 
+Zoom Transition:
 https://github.com/user-attachments/assets/90f79914-a83e-4f8f-8c7e-36ee95901701
 
+SwiftUI Animations in UIKit:
 https://github.com/user-attachments/assets/a7d5be58-d7d8-4eba-8b89-33db27550f4b
 
-(Sorry, that's all I uploaded - no recordings for other menu items; If you'd like to explore more, download & run the project)
+(Sorry, that's all I've uploaded - no recordings for other menu items; If you'd like to explore more - download & run the project)
 
 ## Requirements
 
