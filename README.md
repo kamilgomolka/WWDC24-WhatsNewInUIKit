@@ -1,7 +1,5 @@
 # WWDC24 – What's New in UIKit
 
-## Summary
-
 A small iOS demo app collecting the UIKit-related additions announced at **WWDC24**, each isolated in its own screen so it can be tapped, played with, and read about individually.
 
 The root screen lists every feature; tapping one pushes a dedicated demo view controller with a short explanation and a live, interactive example.
